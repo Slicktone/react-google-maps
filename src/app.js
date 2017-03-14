@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import Map from './components/Map'
-import Places from './components/Places'
+// import Places from './components/Places'
 
 class App extends Component {
     constructor() {
@@ -49,6 +49,7 @@ class App extends Component {
         }
     ]
 // once the api is set for the markers use {this.state.venues} while replacing the venues
+// call this in the Places venues={this.state.venues}
         return (
             <div>
                 This is the React App
@@ -59,7 +60,7 @@ class App extends Component {
                 </div>
 
 
-                    <Places  />
+                    
             </div>
         )
     }
